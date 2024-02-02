@@ -1,0 +1,75 @@
+.espacioBajo1{
+    margin-bottom: 100px;
+}
+.espacioBajo{
+    margin-bottom: 50px;
+}
+
+button.hoverna{
+    border: 2px solid #f9ad30;
+    border-radius: 8px;
+    background-color: #ffefd6;
+    margin-right: 15px;
+}
+
+button.hoverna:hover{
+    border: 2px solid #00367d;
+}
+
+.carousel-inner{
+    height: 700px;
+}
+.fila{
+    display: flex;
+    align-items: stretch !important;
+}
+
+.colorG{
+    background-color: rgb(176, 219, 176);
+}
+.colorH{
+    background-color: rgb(224, 197, 161);
+}
+.colorHa{
+    background-color: rgb(166, 165, 224);
+}
+
+/*h4{
+    color: #f9ad30 !important;
+    border: 2px solid;
+}*/
+
+.h2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.tamaño{
+    height: auto;
+    width: 50%;
+}
+
+.boton{
+    margin-top: 15px;
+    background-color: #00367d !important;
+}
+
+
+
+/*.estilosForm{
+    text-align: center;
+    background-color: rgb(167, 166, 166);
+    /*border: 1px solid #f9ad30;*/
+
+   
+.contenedor{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: #f9ad30;
+    text-align: center;
+}
+footer{
+    background-color: antiquewhite;
+}
