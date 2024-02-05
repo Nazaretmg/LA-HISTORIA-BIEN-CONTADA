@@ -1,9 +1,4 @@
-.espacioBajo1{
-    margin-bottom: 100px;
-}
-.espacioBajo{
-    margin-bottom: 50px;
-}
+
 
 button.hoverna{
     border: 2px solid #f9ad30;
@@ -25,13 +20,13 @@ button.hoverna:hover{
 }
 
 .colorG{
-    background-color: rgb(176, 219, 176);
+    background-color: rgb(208, 226, 208);
 }
 .colorH{
-    background-color: rgb(224, 197, 161);
+    background-color: rgb(248, 247, 188);
 }
 .colorHa{
-    background-color: rgb(166, 165, 224);
+    background-color: rgb(198, 198, 228);
 }
 
 /*h4{
@@ -45,6 +40,9 @@ button.hoverna:hover{
     padding: 30px;
 }
 
+.icono{
+    font-size: 50px;
+}
 .tamaño{
     height: auto;
     width: 50%;
@@ -52,9 +50,13 @@ button.hoverna:hover{
 
 .boton{
     margin-top: 15px;
-    background-color: #00367d !important;
+    border: 2px solid #00367d !important;
+    background-color: #ffefd6 !important;
+    color: black !important;
 }
-
+.boton:hover{
+    border: 2px solid #f9ad30 !important;
+}
 
 
 /*.estilosForm{
@@ -67,7 +69,7 @@ button.hoverna:hover{
     width: 50%;
     height: auto;
     margin: auto;
-    background-color: #f9ad30;
+    /*background-color: #f9ad30;*/
     text-align: center;
 }
 footer{
