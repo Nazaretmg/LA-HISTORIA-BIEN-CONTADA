@@ -1,3 +1,4 @@
+/*Clases creadas para dar espacio entre los diferentes bloques*/
 .espacio1{
     margin-bottom: 50px;
 }
@@ -10,11 +11,30 @@
     margin-bottom: 20px;
 }
 
+/*Clase para modificar el tamaño de la letra del bloque de contenidos*/
 .tamañoLetra{
     font-size: 20px;
     text-decoration: underline;
 }
 
+/*Relleno para los bloques de Geo, Hist e Hª del Arte*/
+.relleno{
+    padding: 50px;
+}
+
+/*Color de fondo para los bloques de Geo, Hist e Hª del Arte*/
+.colorG{
+    background-color: rgb(208, 226, 208);
+}
+.colorH{
+    background-color: rgb(248, 247, 188);
+}
+.colorHa{
+    background-color: rgb(198, 198, 228);
+}
+
+
+/*Clase y hover para los botones del menú de navegación*/
 button.hoverna{
     border: 2px solid #f9ad30;
     border-radius: 8px;
@@ -26,44 +46,41 @@ button.hoverna:hover{
     border: 2px solid #00367d;
 }
 
+/*Estilos para modificar el alto de las fotos de inicio*/
 .carousel-inner{
     height: 700px;
 }
 
-
-.colorG{
-    background-color: rgb(208, 226, 208);
-}
-.colorH{
-    background-color: rgb(248, 247, 188);
-}
-.colorHa{
-    background-color: rgb(198, 198, 228);
-}
-
+/*Estilos para las columnas de texto y fotos*/
 .cuadrado{
     display: flex;
     align-items: stretch !important;
 }
 
+/*Estilos para crear un borde en las columnas de contenido*/
 .texto{
     border: 1px solid var(--bs-border-color-translucent);
     border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
 }
 
+/*Estilos para los encabezados*/
 .h2{
     text-align: center;
     padding: 30px;
 }
 
+/*Estilos para los iconos de enlaces relevantes*/
 .icono{
     font-size: 50px;
 }
+
+/*Estilos para modificar el tamaño de las imágenes de los contenidos*/
 .tamaño{
     height: auto;
     width: 50%;
 }
 
+/*Estilos para los botones de enlaces relevantes*/
 .boton{
     margin-top: 15px;
     border: 2px solid #f9ad30 !important;
@@ -73,33 +90,63 @@ button.hoverna:hover{
 .boton:hover{
     border: 2px solid #00367d !important;
 }
-   
+ 
+/*Estilos para el formulario de contacto*/
 .contenedor{
     background-color: #f1efeb;
     text-align: center;
 }
 
+/*Estilos para el icono de subir*/
 .alinear{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 50px;
 }
 
+/*Estilos para el icono de subir*/
 .color1{
     color: black;
     padding: 20px;
     margin-left: 20px;
 }
 
+/*Estilos para dar margen a distintos bloques*/
 .margen{
     margin-top: 15px;
 }
+
+.margen2{
+    margin-top: 100px;
+}
+
+/*Estilos para el footer y alinear los iconos*/
 footer{
-    background-color: rgb(129, 128, 125);
+    background-color: rgb(112, 112, 111);
     padding-top: 40px;
     padding-bottom: 40px;
+    color: white;
 }
 
 .centrar{
    margin-top: 10px;
 }
+
+/*Estilos para los botones del formulario*/
+.botonForm{
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid black;
+}
+ /*Estilos para que el footer se ponga abajo*/
+html {
+    height: 100%;
+  }
+    body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+    footer {
+    margin-top: auto;
+  }
