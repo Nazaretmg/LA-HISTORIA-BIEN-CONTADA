@@ -164,6 +164,7 @@ html {
 @media(max-width:800px){
     .carousel-inner {
         height: 300px;
+        margin-top: 40px;
     }
 }
 
@@ -173,11 +174,6 @@ html {
     }
 }
 
-@media(max-width:570px){
-    .media1{
-       border: 0px;
-    }
-}
 
 @media(max-width:800px){
     .centrar{
