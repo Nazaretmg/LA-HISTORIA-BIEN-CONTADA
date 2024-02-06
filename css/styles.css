@@ -192,3 +192,9 @@ html {
         font-size: 40px;
     }
 }
+
+@media(max-width:800px){
+    .centrarMenu{
+        text-align: center;
+    }
+}
