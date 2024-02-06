@@ -123,7 +123,7 @@ button.hoverna:hover{
 
 /*Estilos para el footer y alinear los iconos*/
 footer{
-    background-color: #bf9a77;
+    background-color: #cfae90;
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
@@ -131,6 +131,11 @@ footer{
 
 .centrar{
    margin-top: 10px;
+}
+
+/*Estilo relleno del formulario*/
+.rellenoForm{
+    padding: 50px;
 }
 
 /*Estilos para los botones del formulario*/
@@ -196,5 +201,11 @@ html {
 @media(max-width:800px){
     .centrarMenu{
         text-align: center;
+    }
+}
+
+@media(max-width:800px){
+    .espacioMenu{
+        margin-bottom: 15px;
     }
 }
