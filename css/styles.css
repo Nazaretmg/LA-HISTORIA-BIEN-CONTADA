@@ -4,7 +4,7 @@
 }
 
 .espacio2{
-    margin-bottom: 70px;
+    margin-bottom: 90px;
 }
 
 .espacio3{
@@ -14,7 +14,6 @@
 /*Clase para modificar el tamaño de la letra del bloque de contenidos*/
 .tamañoLetra{
     font-size: 20px;
-    text-decoration: underline;
 }
 
 /*Relleno para los bloques de Geo, Hist e Hª del Arte*/
@@ -67,6 +66,7 @@ button.hoverna:hover{
 .h2{
     text-align: center;
     padding: 30px;
+    color: #7e7b15 !important;
 }
 
 /*Estilos para los iconos de enlaces relevantes*/
@@ -90,10 +90,10 @@ button.hoverna:hover{
 .boton:hover{
     border: 2px solid #00367d !important;
 }
- 
+
 /*Estilos para el formulario de contacto*/
 .contenedor{
-    background-color: #f1efeb;
+    background-color: #d6c6b9;
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ button.hoverna:hover{
 
 /*Estilos para el icono de subir*/
 .color1{
-    color: black;
+    color: #7e7b15;
     padding: 20px;
     margin-left: 20px;
 }
@@ -120,9 +120,10 @@ button.hoverna:hover{
     margin-top: 100px;
 }
 
+
 /*Estilos para el footer y alinear los iconos*/
 footer{
-    background-color: rgb(112, 112, 111);
+    background-color: #bf9a77;
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
@@ -136,7 +137,7 @@ footer{
 .botonForm{
     border-radius: 8px;
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid #7e7b15;
 }
  /*Estilos para que el footer se ponga abajo*/
 html {
@@ -150,3 +151,48 @@ html {
     footer {
     margin-top: auto;
   }
+
+
+/*Estilos para la página de Quiénes somos*/
+  .columnaQuienes{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+
+/*Media para adaptarse a las diferentes pantallas*/
+@media(max-width:800px){
+    .carousel-inner {
+        height: 300px;
+    }
+}
+
+@media(max-width:800px){
+    .relleno,.media1{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:570px){
+    .media1{
+       border: 0px;
+    }
+}
+
+@media(max-width:800px){
+    .centrar{
+        width: 50%;
+    }
+}
+
+@media(max-width:800px){
+    .parrafoQuienes{
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:800px){
+    .alinear{
+        font-size: 40px;
+    }
+}
